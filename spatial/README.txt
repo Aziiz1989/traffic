@@ -1,10 +1,10 @@
 I made a python file called spatial.
 
-Check out the ipython notebook for a set of example. 
+Check out the ipython notebook for a set of examples for plots generated. 
 
 Mainly, pass the data as is to the function "generate_hex_heatmap"
 
-There function takes the parameters:
+The function takes the parameters:
 	- (data) any data with columns 'lat' and 'long'
         - (aggregateThis="count") the variable to sum on every haxagon
         - (outpath="index.html") the place where to write the html file
